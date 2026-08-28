@@ -1,5 +1,9 @@
 # 🚀 Machine Learning Basics & Supervised Learning Projects
 
+[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://vaibhav1874-ml-basic--app-v1a0ft.streamlit.app/)
+
+> 🌐 **Live Web Application**: [Click here to try the Heart Disease Predictor App](https://vaibhav1874-ml-basic--app-v1a0ft.streamlit.app/)
+
 Welcome to my Machine Learning practice repository! This project tracks my journey of learning core Machine Learning concepts from the ground up, focusing on end-to-end workflows including **data cleaning**, **preprocessing**, and building various **supervised learning models**.
 
 ---
@@ -80,9 +84,11 @@ Evaluated on an 80/20 train-test split (184 test samples):
 
 ### 4. Interactive Streamlit Web Application (`app.py`)
 Built a web app allowing users and clinicians to input patient metrics and get real-time health risk assessments:
+* **Live Demo URL**: [https://vaibhav1874-ml-basic--app-v1a0ft.streamlit.app/](https://vaibhav1874-ml-basic--app-v1a0ft.streamlit.app/)
 * **Inputs**: Two-column layout with intuitive sliders and dropdowns.
 * **Automated Inference Pipeline**: Formats inputs, applies one-hot encoding, scales via saved `scaler.pkl`, and predicts with `svm_heart.pkl`.
 * **Output**: Clear, color-coded health risk alert cards (⚠️ High Risk vs ✅ Low Risk / Normal).
+
 
 #### How to run the web app locally:
 ```bash
